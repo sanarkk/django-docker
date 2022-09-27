@@ -3,9 +3,9 @@
 > How to run?
 
 ````
-git clone https://github.com/sanarkk/drf-docker-pg.git
+git clone https://github.com/sanarkk/django-docker.git
 
-cd drf-docker-pg/
+cd django-docker/
 
 docker-compose up
 ````
