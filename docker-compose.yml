@@ -11,3 +11,16 @@ services:
       - .:/code
     ports:
       - "8000:8000"
+#  frontend:
+#    build: ./frontend
+#    stdin_open: true
+#    tty: true
+#    command: bash -c "yarn start"
+#    volumes:
+#      - ./frontend:/pythonProject/frontend
+#      - node-modules:/pythonProject/frontend/node_modules
+#    ports:
+#      - "3000:3000"
+#volumes:
+#  node-modules:
+#  postgres_data:
